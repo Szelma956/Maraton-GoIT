@@ -10,9 +10,15 @@ aside {
     height: 1319px;
 }
 
-    aside li::marker {
+aside li::marker {
         color: #FB6D3A
-    }
+}
+
+aside a{
+
+    margin-left: 5px;
+
+}
 
 .list {
     color: #595959;
