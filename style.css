@@ -3,6 +3,10 @@
     background: #F5F7FA;
 }
 
+ol li::marker {
+    color: black;
+}
+
 aside {
     background: #1E2939;
     color: white;
@@ -10,14 +14,36 @@ aside {
     height: 1319px;
 }
 
-aside li::marker {
+    aside li::marker {
         color: #FB6D3A
+    }
+
+main {
+    padding: 88px 102px 88px 102px;
 }
 
-aside a{
+    main ol {
+        font-size: 14px;
+        line-height: 24px;
+        padding-left: 0px;
+        list-style-position: inside;
+    }
 
+    main ul {
+        font-size: 14px;
+        line-height: 24px;
+        padding-left: 0px;
+        list-style-position: inside;
+    }
+
+    main a {
+    
+        text-decoration: none
+    
+    }
+
+aside a {
     margin-left: 5px;
-
 }
 
 .list {
@@ -39,10 +65,9 @@ aside a{
 
 
 .bold {
-
     font-weight: 700;
-
 }
+
 .link-left {
     color: white;
     font-size: 14px;
@@ -52,6 +77,12 @@ aside a{
 .Photo {
     margin: 25px 0px 0px 0px;
 }
+
+
+.orange {
+    color: #FB6D3A
+}
+
 
 .wrapper {
     background: #FFFFFF;
@@ -64,23 +95,16 @@ aside a{
     height: 1319px;
 }
 
-.Description{
-
-    margin: 10px;
-    padding: 10px;
-}
-
 .Description-left {
     margin-left: 40px;
     margin-top: 40px;
 }
 
-.orange {
-    color: #FB6D3A
+.nawais {
+    font-weight: 700;
+    color: black;
 }
 
-.Work-Description {
-
-    margin: 5px;
-    padding: 5px;
+.kreska {
+    color: black;
 }
